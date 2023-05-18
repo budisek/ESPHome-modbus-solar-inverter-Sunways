@@ -6,10 +6,10 @@ In this case it is about connecting a Solar Inverter Sunways.
 
 
 ## Info:
-- shielded cable recommender, otherwise the error "Modbus CRC Check Failed!" may appear in the log.
+- shielded cable recommended, otherwise the error "Modbus CRC Check Failed!" may appear in the log.
 - Sunways modbus datasheet: [Interter Sunways](https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/files/11507484/hybrid_inverter_modbus_rtu_protocol_en0332.pdf)
 - Sunways User manual: [STH 4~12KTL-HT User Manual EN.pdf](https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/files/11507661/STH.4.12KTL-HT.User.Manual.EN.pdf)
-- you have to find out what the heatpump address is - default is 247
+- you need to find out what the Inverter modbus address is - default is 247
 - you also need to find out the serial port speed - default 9600
 - in ESPHome use the sensor class only for addresses that are read-only
 - for addresses that are read/write use the "number" class (you can then change their values in lovelace)
