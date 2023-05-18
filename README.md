@@ -8,6 +8,7 @@ In this case it is about connecting a Solar Inverter Sunways.
 ## Info:
 - shielded cable recommender, otherwise the error "Modbus CRC Check Failed!" may appear in the log.
 - Sunways modbus datasheet: [Interter Sunways](https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/files/11507484/hybrid_inverter_modbus_rtu_protocol_en0332.pdf)
+- Sunways User manual: [STH 4~12KTL-HT User Manual EN.pdf](https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/files/11507661/STH.4.12KTL-HT.User.Manual.EN.pdf)
 - you have to find out what the heatpump address is - default is 247
 - you also need to find out the serial port speed - default 9600
 - in ESPHome use the sensor class only for addresses that are read-only
@@ -19,6 +20,15 @@ In this case it is about connecting a Solar Inverter Sunways.
 - ESP8266 (NodeMCU, Wemos D1...)
 - RS485/TTL converter: [SHOP](https://www.laskakit.cz/prevodnik-uart-na-rs-485--max485/) 
 
+## Connection:
+- ESP D1 -> TXD TTL
+- ESP D2 -> RXD TTL
+- ESP VCC -> VCC TTL
+- ESP GND -> GND TTL
+
+- RS485 A -> A Inverter
+- RS485 B -> B Inverter
+
 ## Schematic ESP8266 - NodeMCU:
 ![Schema](https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/assets/35574450/563bdae1-68e7-4028-8bbe-27a8e6a13f70)
 
@@ -28,7 +38,7 @@ In this case it is about connecting a Solar Inverter Sunways.
 <img width="375" alt="image" src="https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/assets/35574450/7fc45319-5bcd-4c9d-bfd0-57bfbc785f15">
 
 ## ESPHome code:
-(code is still in development, some values from inverter are not included yet)
+(code is still in development, some values from inverter are not yet included)
 
 ```
 uart:
