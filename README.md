@@ -1,1 +1,1 @@
-# ESPHome-modbus-inverter-Sunways
+# ESPHome-modbus-solar-inverter-Sunways
