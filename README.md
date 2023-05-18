@@ -4,6 +4,7 @@
 This manual describes how to connect the device to Home Assistant via Modbus protocol using ESP8266 and RS485/TTL converter.
 In this case it is about connecting a Solar Inverter Sunways.
 
+Many thanks to [peca2345](https://github.com/peca2345) who helped me with the connection and code.
 
 ## Info:
 - shielded cable recommended, otherwise the error "Modbus CRC Check Failed!" may appear in the log.
