@@ -32,6 +32,7 @@ Many thanks to [peca2345](https://github.com/peca2345) who helped me with the co
 
 ## Schematic ESP8266 - NodeMCU:
 ![Schema](https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/assets/35574450/563bdae1-68e7-4028-8bbe-27a8e6a13f70)
+<img width="554" alt="image" src="https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/assets/35574450/bc1b19f7-97f4-490d-a0da-1afb2a9d78af">
 
 ## Lovelace:
 <img width="375" alt="image" src="https://github.com/budisek/ESPHome-modbus-solar-inverter-Sunways/assets/35574450/77d7a180-340d-4570-b3bd-0cc1a9412778">
