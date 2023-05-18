@@ -22,9 +22,9 @@ Many thanks to [peca2345](https://github.com/peca2345) who helped me with the co
 - RS485/TTL converter: [SHOP](https://www.laskakit.cz/prevodnik-uart-na-rs-485--max485/) 
 
 ## Connection:
-- ESP D1 -> TXD TTL
-- ESP D2 -> RXD TTL
-- ESP VCC -> VCC TTL
+- ESP D1 (GPIO5) -> TXD TTL
+- ESP D2 (GPIO4) -> RXD TTL
+- ESP VCC (3V3) -> VCC TTL
 - ESP GND -> GND TTL
 
 - RS485 A -> A Inverter
